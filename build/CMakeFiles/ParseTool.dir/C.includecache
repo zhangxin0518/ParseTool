@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhangxin/ParseTool/src/7zTypes.h
+stddef.h
+-
+
+/home/zhangxin/ParseTool/src/Alloc.c
+Precomp.h
+/home/zhangxin/ParseTool/src/Precomp.h
+windows.h
+-
+stdlib.h
+-
+Alloc.h
+/home/zhangxin/ParseTool/src/Alloc.h
+stdio.h
+-
+
+/home/zhangxin/ParseTool/src/Alloc.h
+7zTypes.h
+/home/zhangxin/ParseTool/src/7zTypes.h
+
+/home/zhangxin/ParseTool/src/Compiler.h
+
+/home/zhangxin/ParseTool/src/LzmaDec.c
+Precomp.h
+/home/zhangxin/ParseTool/src/Precomp.h
+LzmaDec.h
+/home/zhangxin/ParseTool/src/LzmaDec.h
+string.h
+-
+
+/home/zhangxin/ParseTool/src/LzmaDec.h
+7zTypes.h
+/home/zhangxin/ParseTool/src/7zTypes.h
+
+/home/zhangxin/ParseTool/src/Precomp.h
+Compiler.h
+/home/zhangxin/ParseTool/src/Compiler.h
+
